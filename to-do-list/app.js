@@ -8,8 +8,6 @@ document.addEventListener("DOMContentLoaded", function () {
             const taskItem = document.createElement("li");
             taskItem.textContent = taskText;
 
-            // You can add more functionality here (e.g., marking tasks as done, deleting tasks).
-
             taskList.appendChild(taskItem);
             taskInput.value = "";
         }
